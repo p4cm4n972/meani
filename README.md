@@ -4,15 +4,15 @@ Le project a été généré avec [Angular CLI](https://github.com/angular/angul
 
 ## Pré-installation
 
->1. Installer [Nodejs](https://nodejs.org/fr/) version 16.15.0 . (Inclus NPM - node package manager)
+>1. Télécharger et installer [Nodejs](https://nodejs.org/fr/) version 16.15.0 . (Inclus NPM - node package manager)
 
 *Node.js® est un environnement d’exécution JavaScript construit sur le moteur JavaScript V8 de Chrome.*
 
->2. Installer [git](https://git-scm.com/)
+>2. Télécharger et installer [git](https://git-scm.com/)
 
 *Git est un système de contrôle de version distribué gratuit et open source conçu pour tout gérer, des petits aux très grands projets, avec rapidité et efficacité.*
 
->3. Installer **Angular CLI**.
+>3. Installer `Angular CLI`.
 
 <code>$ npm install -g @angular/cli</code>
 
@@ -22,7 +22,7 @@ Le project a été généré avec [Angular CLI](https://github.com/angular/angul
 
 >1. Initialisation de l'application.
 
-<code>$ ng new <nom du projet> --routing </code>
+<code>$ ng new *\<nom du projet\>* --routing </code>
 
 >2. Installer Ng-Bootstrap
 
@@ -45,6 +45,11 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+*Utiliser [Jest](https://jestjs.io/) à la place de Karma*
+1. Suppression de Karma et de sa configuration.
+   
+>><code>$ ng add @briebug/jest-schematic</code>
 
 ## Running end-to-end tests
 
